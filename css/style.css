@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+html, body{
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #8F61B2;
+    background-attachment: fixed;
+}
+
+div#title{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 20px;
+}
+
+div#subtitle{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+div#first-content{
+    display: flex;
+}
+
+img#tm-smiling{
+    width: 300px;
+}
+
+h1{
+    align-items: center;
+    margin: auto;
+    color: #F2E8FA;
+    font-size: 45px;
+}
+
+h3{
+    align-items: center;
+    margin: auto;
+    color: #D9C3EA;
+}
