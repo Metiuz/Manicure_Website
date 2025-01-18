@@ -5,10 +5,10 @@ function Agendamento(){
     let hojeFormated = `${Hoje.getFullYear()}-${mes}-${Hoje.getDate()}`
     console.log(hojeFormated);
     return(
-        <div id="agendamento" style={{boxShadow:"0px 3px 5px 0px rgba(0, 0, 0, 0.125)"}}>
+        <div className="mg-30">
             <p id="pagenda">Selecione uma data e continue</p>
             <input type="date" name="data" id="datapick" defaultValue={hojeFormated}/> <br />
-            <button id="bttava">Avançar</button>
+            <button type="button" className="btn btn-primary">Avançar</button>
         </div>
     )
 }
