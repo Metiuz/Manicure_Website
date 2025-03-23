@@ -4,7 +4,7 @@ import FormConsulta from "../components/FormConsulta"
 function MeusAgendamentos(){
     return(
         <div>
-            <h1>Meus Agendamentos</h1>
+            <h1 className="display-1 m-auto my-3 text-center">Meus Agendamentos</h1>
             <FormConsulta/>
             <VoltarBtt/>
         </div>
